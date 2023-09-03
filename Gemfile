@@ -13,9 +13,9 @@ source 'https://rubygems.org'
 gemspec
 
 group :test do
-  gem 'opentelemetry-instrumentation-base', path: '../base'
-  gem 'opentelemetry-instrumentation-rack', path: '../rack'
+  #gem 'opentelemetry-instrumentation-base', path: '../base'
+  #gem 'opentelemetry-instrumentation-rack', path: '../rack'
 
-  #gem 'opentelemetry-instrumentation-base', '~> 0.21.1' #, path: '../base'
-  #gem 'opentelemetry-instrumentation-rack', '~> 0.21.0' #, path: '../rack'
+  gem 'opentelemetry-instrumentation-base', '~> 0.22.1'
+  gem 'opentelemetry-instrumentation-rack', '~> 0.21'
 end
