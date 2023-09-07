@@ -12,7 +12,7 @@ source 'https://rubygems.org'
 
 #gem 'opentelemetry-instrumentation-base', path: '/Users/josecarlostubadeza/RubyProjects/opentelemetry-instrumentation-base-ruby2.6-experimental'
 #gem 'opentelemetry-instrumentation-base', '~> 0.21.1'
-gem 'opentelemetry-instrumentation-rack', git: 'https://github.com/LoyalSphere/opentelemetry-instrumentation-rack-ruby2.6-experimental', branch: 'master'
+gem 'opentelemetry-instrumentation-rack', git: 'https://github.com/LoyalSphere/opentelemetry-instrumentation-rack-ruby2.6-experimental', branch: 'main'
 
 gemspec
 
