@@ -1,7 +1,7 @@
 # OpenTelemetry Grape Instrumentation Ruby 2.6 Experimental
 
 ## Note: This is a version of the opentelemetry-instrumentation-grape v0.1.4 gem modified to run on Ruby 2.6 and up. This has been given the version number v0.0.1.4. 
-## This version of the gem requires the opentelemetry-instrumentation-rack v0.23.4 that was modified to run on Ruby 2.6, versioned v0.21.23.4
+## This version of the gem requires the opentelemetry-instrumentation-rack v0.23.4 that was modified to run on Ruby 2.6, versioned v0.21.23.4. This modded gem can be found at https://github.com/LoyalSphere/opentelemetry-instrumentation-rack-ruby2.6-experimental
 
 The Grape instrumentation is a community-maintained instrumentation for [Grape][grape], a REST-like API framework for Ruby.
 
