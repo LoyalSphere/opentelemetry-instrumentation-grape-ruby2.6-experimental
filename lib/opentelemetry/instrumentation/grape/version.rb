@@ -8,7 +8,8 @@ module OpenTelemetry
   module Instrumentation
     module Grape
       # Current gem version
-      VERSION = '0.1.4'
+      #VERSION = '0.1.4' #original gem version
+      VERSION = '0.0.1.4' #Ruby 2.6 hacked version
     end
   end
 end

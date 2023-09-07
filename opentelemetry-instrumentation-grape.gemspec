@@ -23,13 +23,18 @@ Gem::Specification.new do |spec|
                Dir.glob('*.md') +
                ['LICENSE', '.yardopts']
   spec.require_paths = ['lib']
-  spec.required_ruby_version = '>= 3.0'
-  #spec.required_ruby_version = '>= 2.6'
+  #spec.required_ruby_version = '>= 3.0'
+  spec.required_ruby_version = '>= 2.6'
 
   spec.add_dependency 'opentelemetry-api', '~> 1.0'
-  spec.add_dependency 'opentelemetry-instrumentation-base', '~> 0.22.1' #version  21.1 supports ruby 2.6
-  #spec.add_dependency 'opentelemetry-instrumentation-base', '~> 0.21.1' #version  21.1 supports ruby 2.6
-  spec.add_dependency 'opentelemetry-instrumentation-rack', '~> 0.21' #this version supports ruby 2.6
+
+  #spec.add_dependency 'opentelemetry-instrumentation-base', '~> 0.22.1'
+  spec.add_dependency 'opentelemetry-instrumentation-base', '~> 0.21.1' #version  21.1 supports ruby 2.6
+  #spec.add_dependency 'opentelemetry-instrumentation-base'
+
+  #spec.add_dependency 'opentelemetry-instrumentation-rack', '~> 0.21' #this version supports ruby 2.6
+  #spec.add_dependency 'opentelemetry-instrumentation-rack', '~> 0.21.23.4' #this version is 0.23.4 hacked to run ruby 2.6
+  spec.add_dependency 'opentelemetry-instrumentation-rack'  #this version is 0.21.23.4 hacked to run ruby 2.6
 
   spec.add_development_dependency 'activesupport'
   spec.add_development_dependency 'appraisal', '~> 2.2.0'
