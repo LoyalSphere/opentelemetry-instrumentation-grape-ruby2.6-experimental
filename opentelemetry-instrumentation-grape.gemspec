@@ -34,7 +34,7 @@ Gem::Specification.new do |spec|
 
   #spec.add_dependency 'opentelemetry-instrumentation-rack', '~> 0.21' #this version supports ruby 2.6
   #spec.add_dependency 'opentelemetry-instrumentation-rack', '~> 0.21.23.4' #this version is 0.23.4 hacked to run ruby 2.6
-  spec.add_dependency 'opentelemetry-instrumentation-rack'  #this version is 0.21.23.4 hacked to run ruby 2.6
+  spec.add_dependency 'opentelemetry-instrumentation-rack'  #this version is 0.22.23.4 hacked to run ruby 2.6
 
   spec.add_development_dependency 'activesupport'
   spec.add_development_dependency 'appraisal', '~> 2.2.0'
