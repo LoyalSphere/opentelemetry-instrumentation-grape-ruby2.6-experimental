@@ -1,3 +1,13 @@
+GIT
+  remote: https://github.com/LoyalSphere/opentelemetry-instrumentation-rack-ruby2.6-experimental
+  revision: acc1267dac0a9ab4e4487b622ccb95f24f736979
+  branch: main
+  specs:
+    opentelemetry-instrumentation-rack (0.22.23.4)
+      opentelemetry-api (~> 1.0)
+      opentelemetry-common (~> 0.19.7)
+      opentelemetry-instrumentation-base (~> 0.21.1)
+
 PATH
   remote: .
   specs:
@@ -5,14 +15,6 @@ PATH
       opentelemetry-api (~> 1.0)
       opentelemetry-instrumentation-base (~> 0.21.1)
       opentelemetry-instrumentation-rack
-
-PATH
-  remote: /Users/josecarlostubadeza/RubyProjects/opentelemetry-instrumentation-rack-ruby2.6-experimental
-  specs:
-    opentelemetry-instrumentation-rack (0.21.23.4)
-      opentelemetry-api (~> 1.0)
-      opentelemetry-common (~> 0.19.7)
-      opentelemetry-instrumentation-base (~> 0.21.1)
 
 GEM
   remote: https://rubygems.org/
